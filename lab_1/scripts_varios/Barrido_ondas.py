@@ -4,10 +4,10 @@ import soundfile as sf
 import matplotlib.pyplot as plt
 
 # Parámetros de la señal
-duracion = 6 # Duración en segundos
+duracion = 5 # Duración en segundos
 fs = 44100 # Frecuencia de muestreo
-frecuencia_inicial = 5000 # Frecuencia inicial en Hz
-frecuencia_final = 5000 # Frecuencia final en Hz
+frecuencia_inicial = 1000 # Frecuencia inicial en Hz
+frecuencia_final = 1000 # Frecuencia final en Hz
 tipo_onda = 'senoidal' # Tipo de onda: 'senoidal', 'cuadrada', 'triangular', 'diente de sierra' o 'cosenoidal'
 
 # Generar la señal
@@ -26,7 +26,7 @@ elif tipo_onda == 'cosenoidal':
     senal = np.cos(2*np.pi*frecuencia*t)
 
 # Guardar la señal en un archivo WAV
-sf.write('senoidal_5k.wav', senal, fs)
+sf.write('senoidal_1k.wav', senal, fs)
 
 print('Señal guardada en "senal.wav"')
 
