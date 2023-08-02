@@ -17,4 +17,4 @@ Para modelar la respuesta en frecuencia de un DUT se pueden seguir los siguiente
 
 
 Referencias:
-[1] https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained
+[1] B. Scarrott, "MP3, AAC, WAV, FLAC: all the audio file formats explained," Published July 24, 2022, What Hi Fi. [Online]. Available: https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained.
