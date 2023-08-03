@@ -1,5 +1,19 @@
 # Taller_Instrumentacion
 
+## 4. ¿Qué es ruido de cuantización? ¿Bajo que circunstancias se podría modelar como ruido aditivo?
+
+El ruido de cuantización es un tipo de error que se introduce cuando se convierte una señal analógica en una señal digital. Esto sucede porque la señal digital solo puede tener valores discretos, mientras que la señal analógica puede tener valores continuos [2]. 
+Un ejemplo en el que el ruido de cuantización puede ser modelado como ruido aditivo es cuando se cuantifica una señal sinusoidal. En este caso, la relación señal-ruido de cuantización (SQNR) se puede calcular como la relación entre la potencia promedio de la señal y la potencia promedio del ruido de cuantización
+
+## 5. ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
+
+n una grabación de audio, el piso de ruido de la señal puede ser afectado tanto por el ruido de cuantización como por el ruido térmico.
+
+## 6. ¿Cuales son las tasas de muestreo más populares para grabaciones de audio? ¿La cantidad de bits por muestra?
+
+Las tasas de muestreo más comunes para grabaciones de audio son 44.1 kHz y 48 kHz. También hay tasas de muestreo más altas disponibles, como 88.2 kHz, 96 kHz y 192 kHz. En cuanto a la cantidad de bits por muestra son de 16 bits y 24 bits.
+
+
 ## 7. ¿Cuales son los formatos de audio cuya compresión o almacenamiento no agrega distorsión?
 Cuando se trata de analizar los efectos de la compresión con pérdidas uno de estos es la distorsión, sin embargo si se quiere mantener la integridad de la señal original sin ningún tipo de pérdidas se pueden hacer uso de los formatos de compresión sin pérdidas con la única desventaja de tender a ser archivos de mayor tamaño. Los formatos sin pérdidas en la actualidad son:[1]
 1. ALAC: desarrollado por Apple con una resolución entre 16-bit/44.1 kHz (calidad de un disco) y 24-bit/192 kHz. Es importante notar que a pesar de que se use ese algoritmo de codificación la extensión de los archivos no es .alac en cambio podría parecer ser de formatos con pérdidas como .m4a no obstante estos son usados solo como contenedores pero el archivo sin pérdidas se encuentran dentro.
@@ -18,3 +32,4 @@ Para modelar la respuesta en frecuencia de un DUT se pueden seguir los siguiente
 
 Referencias:
 [1] B. Scarrott, "MP3, AAC, WAV, FLAC: all the audio file formats explained," Published July 24, 2022, What Hi Fi. [Online]. Available: https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained.
+[2] B. Widrow & I. Kollár , "Quantization Noise: Roundoff Error in Digital Computation, Signal Processing, Control, and Communications," Published 2008, Cambridge University Press. 
